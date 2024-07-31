@@ -10,7 +10,7 @@ const FoodItem = ({ id, name, price, image, description }) => {
   return (
     <div className="food-item">
       <div className="food-item-img-container">
-        <img src={`${url}/uploads/${image}`} className="food-item-image" alt="" />
+        <img src={`https://foody-backend-k0z8.onrender.com/uploads/${image}`} className="food-item-image" alt="" />
         {!cartItems || !cartItems[id] ? (
           <img
             className="add"
